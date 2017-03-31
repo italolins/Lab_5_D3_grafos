@@ -1,0 +1,5 @@
+Nesse lab, sua missão é utilizar visualizações de redes (sugerimos diagramas nó-link, mas pode ser matrizes de adjacência se você preferir) para comparar as estruturas de pré-requisitos de diferentes cursos da UFCG. Seu resultado deve ser uma página publicada no github.io que utiliza d3 para comparar ao menos dois cursos da UFCG. Essa comparação deve incluir um texto seu que examina as semelhanças e diferenças entre as estruturas dos cursos. Um ótimo adicional no lab é se você também permitir que o usuário escolha entre os cursos :D
+
+Utilizaremos como fonte de dados a API do Cursos UFCG. Um exemplo que faz isso para 3 cursos (um de cada vez, basta descomentar lá) está em https://github.com/nazareno/d3/blob/master/networks3.html  . Use esse exemplo como ponto de partida apenas; escolha suas variáveis, como você as codificará, e cuide dos parâmetros do algoritmo leiaute (no exemplo, algumas disciplinas voam para fora do canvas...). 
+
+Para ver outros cursos disponíveis na API e seus identificadores, navegue em: http://analytics.ufcg.edu.br/cursosufcg/#/  

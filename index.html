@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<title>D3</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/fonts.css" rel="stylesheet">
+	<style>
+			.node {
+			    fill: #ccc;
+			    stroke: #fff;
+			    stroke-width: 2px;
+			}
+
+			.link {
+					stroke: #999;
+					stroke-opacity: 0.6;
+			}
+    </style>
+</head>
+<body>
+
+	<div class="container">
+
+		<ol class="breadcrumb">
+			<li class="active">Home</li>
+			<li ><a href="computacao.html">Computação</a></li>
+			<li><a href="design.html">Design</a></li>
+			<li ><a href="enfermagem.html">Enfermagem</a></li>
+		</ol>
+		<header>
+			<h1>Disciplinas e Pre-Requisitos</h1>
+		</header>
+		
+		<body>
+			<p>
+				Nesse lab, Visualizaremos o sistema de pre-requisitos de disciplinas de 
+				cursos ofertados pela UFCG. As Disciplinas serão representadas por "pontos"
+				 e seus pre-requisitos ligações entre esses "pontos", se estes "pontos" tiverem
+				 cores semelhantes isso indica que pertencem ao mesmo periodo. O tamanho dos
+				 "pontos" representa a quantidade de creditos da disciplina, ou seja, "pontos"
+				 maiores disciplinas com mais creditos, "pontos" menores menor quantidade de 
+				 creditos.
+				
+			</p>
+		</body>
+		
+		
+	</div>
+
+
+</body>
+</html>
+
+
+<!--
+codigo para rodar o servidor python:
+python2 -m SimpleHTTPServer 8080
